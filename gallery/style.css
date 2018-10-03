@@ -1,0 +1,168 @@
+body{
+	background:#000;
+	}
+	
+#header{
+	background:#000;
+}	
+
+#logo{
+	margin-top:-40px;
+	margin-bottom:-26px;
+	margin-left:-6px;
+	padding:51px;
+	}
+
+#social{
+ float:right;
+ margin:-79px 26px;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+	font-size:20px;
+}
+
+
+li a:hover {
+    background-color:#ffd200;
+	color:#000;
+}
+.active {
+    background-color: #ffd200;
+	color:#000;
+}
+
+	
+	@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin:o; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  
+ 
+  animation: 30s slidy infinite; 
+}
+#box{
+	margin-left:134px;
+	width:80%;
+	}
+
+.boxleft{
+	
+	width:41%;
+	background:#ffd200;
+	color:#000;
+	position:absolute;
+	
+	}
+.boxright{
+	background:red;
+	width:40%;
+	float:right;
+	position:relative;
+	margin-right:104px;
+	}
+h2{
+	
+	font-size:37px;
+	margin-left:31px;
+	
+}
+
+#box_2{
+	width:80%;
+	}
+.box_left{
+	width:40%;
+	position:absolute;
+	margin-top:270px;
+	margin-left:134px;
+	}
+.box_right{
+	width:48%;
+	background:#ffd200;
+	color:#000;
+	
+	margin-left:673px;
+	}
+.text{
+	padding:33px;
+	margin:14px;
+	}
+
+#about{
+	background:#ffd200;
+	width:60%;
+	margin-left:250px;
+	margin-top:65px;
+	padding-left:6px;
+	padding-bottom:35px;
+}
+h1{
+	font-size:25px;
+	padding-left:16%;
+	padding-top:5%;
+}
+.dell{
+	padding-left: 160px;
+    padding-right: 160px;
+}
+h3{
+	margin-left:158px;
+	}
+h4{
+	padding:10px;
+}
+div.img {
+    margin: 17px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 297px;
+}
+
+div.img:hover {
+    border: 1px solid #ffd200;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+#footer{
+ background:#202223;
+ color:#ffd200;
+ text-align:center;
+ padding-bottom:2px;
+ 
+}
